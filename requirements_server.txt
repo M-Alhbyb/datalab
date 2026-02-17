@@ -1,0 +1,40 @@
+# ==============================
+# FastAPI
+# ==============================
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+python-multipart==0.0.9
+
+# ==============================
+# OCR Core
+# ==============================
+surya-ocr==0.17.1
+torch==2.10.0
+pillow==10.4.0
+
+# ==============================
+# Transformers stack (required by surya)
+# ==============================
+transformers==4.56.1
+tokenizers==0.22.2
+safetensors==0.7.0
+huggingface_hub==0.36.2
+einops==0.8.2
+regex==2024.11.6
+tqdm==4.67.3
+
+# ==============================
+# Numerical
+# ==============================
+numpy==2.4.2
+
+# ==============================
+# FastAPI dependencies
+# ==============================
+pydantic==2.12.5
+pydantic_core==2.41.5
+typing_extensions==4.15.0
+anyio==4.12.1
+sniffio==1.3.1
+h11==0.16.0
+click==8.3.1
